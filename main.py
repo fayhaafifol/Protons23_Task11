@@ -9,10 +9,15 @@ def calculate(num1, num2,op):
         if op =="1":
              
                 result= num1 + num2
+        elif op == "2":
+                result = num1 - num2
 
         elif op =="3":
                
                 result= num1/num2
+        elif op =="4":
+               
+                result= num1*num2
         
 
 op = input("Choose the opertion that you desire (^u^)/ :\n 1- Addition\n 2- Subtraction\n 3- Division\n 4- Multiplication\n")
